@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" 
+"""
 Create a function with annotated types - list of floats
 """
 from typing import List

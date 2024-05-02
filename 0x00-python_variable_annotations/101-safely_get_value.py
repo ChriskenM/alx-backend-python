@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-""" 
-Adding more involved type annotations 
+"""
+Adding more involved type annotations
 """
 from typing import Mapping, Any, Union, TypeVar
 
@@ -12,7 +12,7 @@ def safely_get_value(dct: Mapping, key: Any,
                      default: Union[T, None] = None
                      ) -> Union[Any, T]:
     """
-    Safely get value 
+    Safely get value
     """
     if key in dct:
         return dct[key]
