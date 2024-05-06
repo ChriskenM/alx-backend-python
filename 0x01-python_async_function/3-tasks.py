@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""
+Function Create an asyncio.Task for wait_random with the specified max_delay.
+"""
 import asyncio
 from typing import Coroutine
 

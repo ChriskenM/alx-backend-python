@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-
+"""
+Asynchronous coroutine spawns wait_random n times with specified max_delay
+"""
 import asyncio
 from typing import List
 

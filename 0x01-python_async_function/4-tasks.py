@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-
+"""
+Asynchronous function spawns task_wait_random n times
+"""
 import asyncio
 from typing import List
 

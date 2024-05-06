@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-
+"""
+Function Measures total execution time: wait_n and return total_time / n
+"""
 import asyncio
 import time
 from typing import Callable
